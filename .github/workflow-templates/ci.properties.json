@@ -1,0 +1,13 @@
+{
+    "name": "CI",
+    "description": "Organization CI starter workflow.",
+    "iconName": "star-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
