@@ -7,8 +7,8 @@ export default {
   component: Main
 } as Meta
 
-export const Basic: Story = (args) => <Main {...args} />
-Basic.args = {
+export const Default: Story = (args) => <Main {...args} />
+Default.args = {
   title: 'React Avançado',
   description: 'Typescript, ReactJS Nextjs e Styled Components'
 }
